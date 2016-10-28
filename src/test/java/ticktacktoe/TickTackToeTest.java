@@ -132,4 +132,12 @@ public class TickTackToeTest {
       assertEquals(false, tick.in_range('0'));
       assertEquals(true, tick.in_range('3'));
     }
+    @Test
+    public void test_output_winner()
+    {
+    	TickTackToe tick = new TickTackToe();
+    	assertEquals("Draw!", tick.output_winner(4, false));
+    	assertEquals("Winner is: X", tick.output_winner(6, true));
+    	assertEquals("Winner is: O", tick.output_winner(7, true));
+    }
 }
