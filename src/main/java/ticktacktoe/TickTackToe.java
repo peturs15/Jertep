@@ -79,6 +79,21 @@ public class TickTackToe
 		return (is_horizontal_winner() || is_vertical_winner() || is_diagonal_winner());
 	}
 
+	static void output_board()
+	{
+		for (int i = 0; i <=  2; i++)
+		{
+			for (int y = 0; y <= 2; y++)
+			{
+				System.out.print( board[i][y] + " ");
+
+			}
+
+			System.out.println();
+
+		}
+	}
+
 	static String output_winner(int turns,boolean is_winner)
 	{
 		if (is_winner)
@@ -86,16 +101,6 @@ public class TickTackToe
 		else
 
 			return "Draw!";
-	}
-
-	static void output_winner(int turns,boolean is_winner)
-	{
-		if (is_winner)
-			System.out.println("Winner is: "+ whos_turn(turns));
-		else
-
-			System.out.println("Draw!");
-
 	}
 
 	static boolean in_range(char letter)
@@ -131,8 +136,8 @@ public class TickTackToe
     public static void main(String[] args)
     {
 			TickTackToe tick = new TickTackToe();
-    	output_board();
+			output_board();
 			tick.play_game();
-			tick.output_winner(tick.turns, tick.has_won());
+			System.out.println(tick.output_winner(tick.turns, tick.has_won()));
     }
 }
