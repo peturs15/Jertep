@@ -19,14 +19,17 @@ The initial plan is to create a functional console game but with the option to i
 
 Everyone in the team knows how the game works so it wasn't hard to figure out the basic logic and decide how to design it. At first there will only be one class but in the finished product each functionality will be stored in separate  class eg. the game, the player and the board.
 The board is a 3x3 square stored in two-dimensional array and is initialized as followed:
+
 	1 2 3
 	4 5 6
 	7 8 9
 	
 The players are two , X and O. If Player O starts and inputs 5 then the updated board will be:
+
 	1 2 3
 	4 O 6
 	7 8 9
+	
 if there is X or O in the array the game returns a error message.
 
 ####Implementation and testing
