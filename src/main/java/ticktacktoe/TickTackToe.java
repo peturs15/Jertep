@@ -79,19 +79,13 @@ public class TickTackToe
 		return (is_horizontal_winner() || is_vertical_winner() || is_diagonal_winner());
 	}
 
-	static void output_board()
+	static String output_winner(int turns,boolean is_winner)
 	{
-		for (int i = 0; i <=  2; i++)
-		{
-			for (int y = 0; y <= 2; y++)
-			{
-				System.out.print( board[i][y] + " ");
+		if (is_winner)
+			return "Winner is: "+ whos_turn(turns);
+		else
 
-			}
-
-			System.out.println();
-
-		}
+			return "Draw!";
 	}
 
 	static void output_winner(int turns,boolean is_winner)
