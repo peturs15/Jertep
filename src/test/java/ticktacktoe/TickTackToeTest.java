@@ -140,4 +140,22 @@ public class TickTackToeTest {
     	assertEquals("Winner is: X", tick.output_winner(6, true));
     	assertEquals("Winner is: O", tick.output_winner(7, true));
     }
+    @Test
+    public void test_has_won()
+    {
+    	TickTackToe tick = new TickTackToe();
+		tick.board[0][0] = 'X';
+		assertEquals(false,tick.has_won());
+		tick.board[0][1] = 'X';
+		tick.board[0][2] = 'X';
+		assertEquals(true,tick.has_won());
+		tick.board[0][0] = 'O';
+		tick.board[1][0] = 'O';
+		tick.board[2][0] = 'O';
+		assertEquals(true,tick.has_won());
+		tick.board[1][1] = 'O';
+		tick.board[1][0] = 'X';
+		tick.board[2][2] = 'O';
+		assertEquals(true,tick.has_won());
+    }
 }
