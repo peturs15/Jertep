@@ -1,5 +1,4 @@
-package ticktactoe;
-
+package ticktacktoe;
 
 import javax.swing.*;
 import java.awt.event.*;
