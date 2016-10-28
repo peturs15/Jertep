@@ -118,4 +118,18 @@ public class TickTackToeTest {
       tick.board[2][2] = 'X';
       assertEquals(false, tick.is_diagonal_winner());
     }
+    @Test
+    public void test_is_draw()
+    {
+      TickTackToe tick = new TickTackToe();
+      assertEquals(false, tick.is_draw(7));
+      assertEquals(true, tick.is_draw(8));
+    }
+    @Test
+    public void test_in_range()
+    {
+      TickTackToe tick = new TickTackToe();
+      assertEquals(false, tick.in_range('0'));
+      assertEquals(true, tick.in_range('3'));
+    }
 }
