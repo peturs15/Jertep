@@ -25,6 +25,6 @@ TBD
 |Tumi Guðmundsson |[tumi23](https://github.com/tumi23) |
 |Eiríkur Hákon Friðriksson|[eirikurhf](https://github.com/eirikurhf)||
 |Rakel Rós Geirsdóttir|[rakelros](https://github.com/peturs15)||
-|Elías Ingi Elíasson|[TBD]()||
+|Elías Ingi Elíasson|[eliasingi12](https://github.com/eliasingi12)||
 |Pétur Stefánsson|[peturs15](https://github.com/peturs15)||
 |Jón Sigurðsson|[jonsig](https://github.com/jonsig)||
