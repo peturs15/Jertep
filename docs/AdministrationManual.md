@@ -9,7 +9,7 @@ To play Tic Tac Toe on your computer, you need to have the following programs in
 
 If you use windows, go to [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jre7u9-downloads-1859586.html) there are instructions on how to install it. 
 
-If you use Mac or Linux go to [Homebrew](http://brew.sh) and copy the Url and run in the Terminal. 
+If you use Mac or Linux go to [Homebrew](http://brew.sh) and copy the url and run in the terminal. 
 You also need to do the following:
  - brew tap caskroom/cask
  - brew install brew-cask
@@ -44,7 +44,7 @@ On Unix/Linux open the terminal and go to the location of the folder. Write the 
 After you run the game on your computer it saves a .jar file in a directory named jar on the root of your computer. Go to the jar directory and type the command *java -jar ticktacktoe.jar* to play the game as a console project.
 
 #### Gui Tick Tack Toe
-The gui application is an easy click version of the console app, to access it you need to go to the bin folder at the root of the project and type in the command: java -jar gui.jar
+The gui application is an easy click version of the console app. To access it you need to go to the bin folder at the root of the project and type in the command: java -jar gui.jar
 
 ####How to play Tic Tac Toe
 
