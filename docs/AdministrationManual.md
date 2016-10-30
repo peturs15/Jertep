@@ -1,6 +1,6 @@
 #Administration Manual
 
-To play Tic Tac Toe on your computer, you have to do have the following programs installed on your computer:
+To play Tic Tac Toe on your computer, you need to have the following programs installed on your computer:
  - Java jdk8
  - Git
  - Gradle
@@ -34,7 +34,7 @@ You also need to do the following:
 
 -
 ####Play Tic Tac Toe on your computer.
-Now you have to go to [GitHub](https://github.com/peturs15/Jertep) and download the project as .zip/.tar.gz
+Now you go to [GitHub](https://github.com/peturs15/Jertep) and download the project as .zip/.tar.gz
 
 On Unix/Linux open the command prompt and go the location of the folder. Write the command *./bin/compile* to run the game
 
