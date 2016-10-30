@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-TBD
+This is a late-term assignment in a Software engineering course at The University of Reykjavík. The assignment mostly revolves around setting up a technical infrastructure to support agile development. The main challage is to glue together the bits and pieces through the latter half of the class's curriculum, into a coherent infrastructure. We are working in a group of six students are we're implementing a simple game of TicTacToe using the methods we've been tought on agile development. The main focus of this project is therefore on the infrastructure and the best coding practices but not on the implemented features of the game itself.
 
 ### About Tic Tac Toe
 
