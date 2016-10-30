@@ -4,7 +4,7 @@
 The members of team Jertep are:
 
 	- Eíríkur Hákon Friðriksson
-	- Elías Ingi Stefánsson
+	- Elías Ingi Elíasson
 	- Jón Sigurðsson
 	- Pétur Stefánsson
 	- Rakel Rós Geisdóttir
