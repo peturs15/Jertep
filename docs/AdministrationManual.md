@@ -43,6 +43,9 @@ On Unix/Linux open the terminal and go to the location of the folder. Write the 
 ####.jar
 After you run the game on your computer it saves a .jar file in a directory named jar on the root of your computer. Go to the jar directory and type the command *java -jar ticktacktoe.jar* to play the game as a console project.
 
+#### Gui Tick Tack Toe
+The gui application is an easy click version of the console app, to access it you need to go to the bin folder at the root of the project and type in the command: java -jar gui.jar
+
 ####How to play Tic Tac Toe
 
 Tic Tac Toe is a game between two players where they compete to get three consecutive symbols (x's or o's) on a 3x3 playing board. The board is marked with numbers from 1 to 9 and the players take turns choosing on which square they want to place their symbol. As soon as a player decides which square from 1 to 9 they want to place their symbol on, that square becomes marked with their symbol and can no longer be used, the other player then takes their turned following the same pattern of rules. The first player to get three consecutive symbols (across the table or diagonal) wins the game. If the board fills up with symbols and neither player has three consecutive ones, there is a tie.
