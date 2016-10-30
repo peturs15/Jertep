@@ -33,6 +33,9 @@ The players are two , X and O. The player that starts is X and if he inputs 5 th
 	
 if there is X or O in the array where the player decides to input his symbol, the game returns a error message, aswell as having any illegal inputs outside of the game board.
 
+####Gui App
+We decided that the console app was a bit fiddely so we created a Gui application that is click activated but uses the functions from the original console app, instead of typing 1 - 9 you just have to click the buttons in the window that pops up.
+
 ####Implementation and testing
 We will split the functions between ourselves and each team member is responsible to write a testing code to go along with the game code. After each implementation, the member will add, commit and push his or her code to the repository. Travis is connected to our repository and will be built there. If the build on Travis is without errors we continue, else we fix the code.
 We will create a Heroku web app when the console game is ready.
