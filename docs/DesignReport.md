@@ -45,5 +45,3 @@ We will use a plugin called ReSharper to go over our code and to verify that the
 
 ####The delivery
 The plan is to deliver the project in a web based app in Heroku, so that the user can play the game in a browser. It will be accesible here on github and can be played through a link we provide in our repository.
-
-hvernig ætlum við að skila verkefninu af okkur, verður það console eða komumst við í vef app
