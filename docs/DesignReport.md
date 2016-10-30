@@ -25,10 +25,10 @@ The board is a 3x3 square stored in two-dimensional array and is initialized as 
 	4 5 6
 	7 8 9
 	
-The players are two , X and O. If player O starts and inputs 5 then the updated board will be:
+The players are two , X and O. The player that starts is X and if he inputs 5 then the updated board will be:
 
 	1 2 3
-	4 O 6
+	4 X 6
 	7 8 9
 	
 if there is X or O in the array where the player decides to input his symbol, the game returns a error message, aswell as having any illegal inputs outside of the game board.
