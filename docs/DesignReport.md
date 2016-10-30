@@ -38,7 +38,7 @@ We will split the functions between ourselves and each team member is responsibl
 We will create a Heroku web app when the console game is ready.
 
 ####Class diagram
-helstu klasaritin koma hér 
+![alt tag](https://scontent-lhr3-1.xx.fbcdn.net/v/t34.0-12/14874890_1121240174650295_70463752_n.jpg?oh=eee853700f9d108f4c0ef1d8cfeb8d25&oe=581819AE)
 
 ####Code coverage & inspection
 We will use a plugin called ReSharper to go over our code and to verify that the coding rules we had set are being followed.
