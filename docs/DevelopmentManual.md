@@ -31,3 +31,4 @@
 			  return true;
 		  }
 	  }
+**Built-in Java functions are exempt from Snake Casing**
